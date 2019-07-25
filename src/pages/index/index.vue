@@ -1,8 +1,8 @@
 <template>
   <div class="container" @click="clickHandle">
     <div class="message">{{msg}}</div>
-    <div @click="skipPage">
-      点我跳转页面
+    <div>
+        <i-button type="primary" @click="skipPage" size="small">点击跳转</i-button>
     </div>
   </div>
 </template>
