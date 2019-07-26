@@ -1,4 +1,4 @@
-const routes = require('./router/index.js')
+const routes = require('./router/index.js');
 
 module.exports = {
   "pages": routes,
