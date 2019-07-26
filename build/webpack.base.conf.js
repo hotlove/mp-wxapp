@@ -30,19 +30,7 @@ function getEntry (rootSrc) {
 // const pagesEntry = getEntry(resolve('./src'), 'pages/**/main.js')
 // const entry = Object.assign({}, appEntry, pagesEntry)
 
-const entry = MpvueEntry.getEntry({
-  // 页面配置文件
-  pages: 'src/router/index.js',
-  // 主入口文件，作为模板
-  main: 'src/main.js',
-  // 入口模板文件，优先级较高
-  template: 'src/main.js',
-  // 项目配置文件
-  app: 'src/app.json', // 新
-  // 项目构建目录
-  // 这里要和project.config.json 中 miniprogramRoot 字段对应的值要一致
-  dist: 'dist/wx'
-});
+const entry = MpvueEntry.getEntry('src/app.json');
 
 let baseWebpackConfig = {
   // 如果要自定义生成的 dist 目录里面的文件路径，
