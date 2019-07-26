@@ -6,7 +6,8 @@ import mutations from './mutations'
 Vue.use(Vuex);
 
 let state = {
-  token: ''
+  token: '',
+  baseUrl: 'http://www.baidu.com'
 }
 
 export default new Vuex.Store({
