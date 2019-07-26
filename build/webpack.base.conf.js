@@ -30,7 +30,7 @@ function getEntry (rootSrc) {
 // const pagesEntry = getEntry(resolve('./src'), 'pages/**/main.js')
 // const entry = Object.assign({}, appEntry, pagesEntry)
 
-const entry = MpvueEntry.getEntry('src/app.json');
+const entry = MpvueEntry.getEntry('src/app.js');
 
 let baseWebpackConfig = {
   // 如果要自定义生成的 dist 目录里面的文件路径，
