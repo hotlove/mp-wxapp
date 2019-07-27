@@ -1,5 +1,5 @@
 import Fly from 'flyio/dist/npm/wx';
-import store from '../store/index;'
+import store from '../store/index.js';
 import qs from 'qs';
 
 const http = new Fly();
