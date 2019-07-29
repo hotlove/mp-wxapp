@@ -1,9 +1,9 @@
 <template>
-  <div class="container" @click="clickHandle">
-    <div class="message">{{msg}}</div>
-    <div>
-        <i-button @click="skipPage" type="success" size="small">点击跳转</i-button>
-    </div>
+  <div>
+    <i-tab-bar :fixed="true" current="mine">
+      <i-tab-bar-item key="remind" icon="remind" current-icon="remind_fill" title="主页"></i-tab-bar-item>
+      <i-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" title="我的"></i-tab-bar-item>
+    </i-tab-bar>
   </div>
 </template>
 
