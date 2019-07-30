@@ -8,6 +8,8 @@ module.exports = [
         "i-button": "../../static/iview/button/index",
         "i-tab-bar": "../../static/iview/tab-bar/index",
         "i-tab-bar-item": "../../static/iview/tab-bar-item/index",
+        "van-tabbar": "../../static/vant/tabbar/index",
+        "van-tabbar-item": "../../static/vant/tabbar-item/index"
       }
     }
   }, {
