@@ -16,7 +16,11 @@ module.exports = [
     "path": "pages/count/index",
     "config": {
       "navigationBarTitleText": "计算页面",
-      "enablePullDownRefresh": true
+      "enablePullDownRefresh": true,
+      "usingComponents": {
+        "van-tabbar": "../../static/vant/tabbar/index",
+        "van-tabbar-item": "../../static/vant/tabbar-item/index"
+      }
     }
   }
 ]
