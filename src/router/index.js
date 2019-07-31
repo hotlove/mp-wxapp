@@ -4,23 +4,14 @@ module.exports = [
     "config": {
       "navigationBarTitleText": "首页",
       "enablePullDownRefresh": true,
-      "usingComponents": {
-        "i-button": "../../static/iview/button/index",
-        "i-tab-bar": "../../static/iview/tab-bar/index",
-        "i-tab-bar-item": "../../static/iview/tab-bar-item/index",
-        "van-tabbar": "../../static/vant/tabbar/index",
-        "van-tabbar-item": "../../static/vant/tabbar-item/index"
-      }
+      "usingComponents": {}
     }
   }, {
     "path": "pages/count/index",
     "config": {
       "navigationBarTitleText": "计算页面",
       "enablePullDownRefresh": true,
-      "usingComponents": {
-        "van-tabbar": "../../static/vant/tabbar/index",
-        "van-tabbar-item": "../../static/vant/tabbar-item/index"
-      }
+      "usingComponents": {}
     }
   }
 ]

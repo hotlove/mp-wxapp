@@ -1,14 +1,9 @@
 <script>
-export default {
-  onLaunch() {
-    console.log('启动了---------------------')
-    console.log(wx)
-    wx.hideTabBar();
-  },
-  created () {
-    console.log('miniapp created!!!')
+  export default {
+      created () {
+        console.log('app start')
+      }
   }
-}
 </script>
 
 <style>
