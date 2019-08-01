@@ -20,7 +20,11 @@ module.exports = {
         }, {
             "pagePath": "pages/count/index",
             "text": "统计"
-        }]
+        },{
+            "pagePath": "pages/my",
+            "text": "我的"
+        }
+        ]
     },
     "usingComponents": {}
 }

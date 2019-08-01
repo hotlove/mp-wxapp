@@ -5,6 +5,7 @@ Component({
             // 这里要使用绝对路径
             "/pages/index/index",
             "/pages/count/index",
+            "/pages/my",
         ]
     },
     methods: {
