@@ -1,6 +1,6 @@
 <template>
   <div>
-    购物车
+    分类
   </div>
 </template>
 
@@ -8,12 +8,12 @@
   export default {
     data() {
       return {
-        active: 2
+        active: 1
       };
     },
     onShow() {
       this.$root.$mp.page.getTabBar().setData({
-        activeIndex: 2 //对应页面的index
+        activeIndex: 1 //对应页面的index
       });
     },
     methods: {}

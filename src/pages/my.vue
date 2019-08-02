@@ -8,12 +8,12 @@
   export default {
     data() {
       return {
-        active: 2
+        active: 3
       };
     },
     onShow() {
       this.$root.$mp.page.getTabBar().setData({
-        activeIndex: 2 //对应页面的index
+        activeIndex: 3 //对应页面的index
       });
     },
     methods: {}

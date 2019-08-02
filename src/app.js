@@ -15,14 +15,17 @@ module.exports = {
         "selectedColor": "#000000",
         "backgroundColor": "#000000",
         "list": [{
-            "pagePath": "pages/index/index",
+            "pagePath": "pages/index",
             "text": "首页"
         }, {
-            "pagePath": "pages/count/index",
-            "text": "统计"
+            "pagePath": "pages/classify",
+            "text": "分类"
         },{
-            "pagePath": "pages/my",
-            "text": "我的"
+            "pagePath": "pages/shopcart",
+            "text": "购物车"
+        },{
+          "pagePath": "pages/my",
+          "text": "我的"
         }
         ]
     },

@@ -1,5 +1,6 @@
 <van-tabbar active="{{activeIndex}}" bindchange="handleProxy">
     <van-tabbar-item icon="wap-home">首页</van-tabbar-item>
-    <van-tabbar-item icon="search">搜索</van-tabbar-item>
+    <van-tabbar-item icon="search">分类</van-tabbar-item>
+    <van-tabbar-item icon="cart-o">购物车</van-tabbar-item>
     <van-tabbar-item icon="contact">我的</van-tabbar-item>
 </van-tabbar>
