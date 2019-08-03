@@ -8,7 +8,8 @@ module.exports = [
         "van-row": "../../static/vant/row/index",
         "van-col": "../../static/vant/col/index",
         "van-search": "../../static/vant/search/index",
-        "van-icon": "../../static/vant/icon/index"
+        "van-icon": "../../static/vant/icon/index",
+        "van-toast": "../../static/vant/toast/index"
       }
     }
   },
