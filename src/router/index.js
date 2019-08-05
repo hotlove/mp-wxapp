@@ -37,4 +37,16 @@ module.exports = [
       "usingComponents": {}
     }
   },
+  {
+    "path": "pages/message",
+    "name": "message",
+    "config": {
+      "navigationBarTitleText": "消息",
+      "enablePullDownRefresh": true,
+      "usingComponents": {
+        "van-cell": "../../static/vant/cell/index",
+        "van-cell-group": "../../static/vant/cell-group/index"
+      }
+    }
+  },
 ]

@@ -66,7 +66,7 @@
         })
       },
       goMessageInfo() {
-        this.$router.push({path: ''})
+        this.$router.push({path: '/pages/message'})
       }
     }
   };
