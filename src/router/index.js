@@ -44,8 +44,8 @@ module.exports = [
       "navigationBarTitleText": "消息",
       "enablePullDownRefresh": true,
       "usingComponents": {
-        "van-cell": "../../static/vant/cell/index",
-        "van-cell-group": "../../static/vant/cell-group/index"
+        "van-row": "../../static/vant/row/index",
+        "van-col": "../../static/vant/col/index"
       }
     }
   },

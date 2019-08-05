@@ -25,7 +25,7 @@
 	"projectname": "mp-vxapp",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
-	"libVersion": "2.8.0",
+	"libVersion": "2.7.7",
 	"condition": {
 		"search": {
 			"current": -1,

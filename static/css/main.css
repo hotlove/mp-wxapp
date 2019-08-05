@@ -1,0 +1,32 @@
+
+.text-right {
+  text-align: right;
+}
+
+.text-let {
+  text-align: left;
+}
+
+.text-base {
+  color: #9D9D9D;
+}
+
+.text-fs-14 {
+  font-size: 14px;
+}
+
+.text-fs-16 {
+  font-size: 16px;
+}
+
+.m-t-5 {
+  margin-top: 5px;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.m-b-5 {
+  margin-bottom: 5px;
+}

@@ -6,7 +6,7 @@ Component({
             "/pages/index",
             "/pages/classify",
             "/pages/shopcart",
-            "/pages/my",
+            "/pages/my"
         ]
     },
     methods: {

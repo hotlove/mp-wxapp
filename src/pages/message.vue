@@ -1,13 +1,21 @@
 <template>
-  <div>
-    <van-cell-group>
-      <van-cell v-for="(item, index) in messageList"
-                :title="item.title"
-                :value="item.time"
-                :label="item.value"
-                :border="true"
-                :key="index"/>
-    </van-cell-group>
+  <div class="message-body">
+    <div v-for="(item, index) in messageList" :key="index" class="m-t-10 message-content-border">
+      <van-row>
+        <van-row>
+          <div class="m-t-5">
+            <van-col span="12">{{ item.title }}</van-col>
+            <van-col span="12">
+              <div class="text-right">{{ item.time }}</div>
+            </van-col>
+          </div>
+        </van-row>
+        <van-row>
+          <div class="m-t-10 m-b-5 text-fs-14 text-base">{{ item.value }}</div>
+        </van-row>
+      </van-row>
+    </div>
+
   </div>
 </template>
 
@@ -49,4 +57,17 @@
 </script>
 
 <style lang="scss">
+  @import "../../static/css/main.css";
+
+  .message-body {
+    padding: 5px 10px;
+
+    .message-content-border {
+      border-top: 1px solid #ebecee;
+    }
+
+    .message-content-border:last-child {
+      border-bottom: 1px solid #ebecee;
+    }
+  }
 </style>
