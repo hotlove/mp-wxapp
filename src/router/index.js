@@ -3,7 +3,7 @@ module.exports = [
     "path": "pages/index",
     "config": {
       "navigationBarTitleText": "首页",
-      "enablePullDownRefresh": true,
+      "enablePullDownRefresh": false,
       "usingComponents": {
         "van-row": "../../static/vant/row/index",
         "van-col": "../../static/vant/col/index",
@@ -17,7 +17,7 @@ module.exports = [
     "path": "pages/classify",
     "config": {
       "navigationBarTitleText": "分类",
-      "enablePullDownRefresh": true,
+      "enablePullDownRefresh": false,
       "usingComponents": {}
     }
   },
@@ -25,16 +25,23 @@ module.exports = [
     "path": "pages/shopcart",
     "config": {
       "navigationBarTitleText": "购物车",
-      "enablePullDownRefresh": true,
+      "enablePullDownRefresh": false,
       "usingComponents": {}
     }
   },
   {
     "path": "pages/my",
     "config": {
+      "backgroundColorTop": "#FFC416",
+      "backgroundColor": "#FFC416",
+      "navigationBarBackgroundColor": "#FFC416",
       "navigationBarTitleText": "我的",
-      "enablePullDownRefresh": true,
-      "usingComponents": {}
+      "enablePullDownRefresh": false,
+      "usingComponents": {
+        "i-avatar": "../../static/iview/avatar/index",
+        "van-row": "../../static/vant/row/index",
+        "van-col": "../../static/vant/col/index"
+      }
     }
   },
   {
