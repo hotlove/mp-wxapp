@@ -57,7 +57,7 @@
 </script>
 
 <style lang="scss">
-  @import "../../static/css/main.css";
+  /*@import "../../static/css/main.css";*/
 
   .message-body {
     padding: 5px 10px;

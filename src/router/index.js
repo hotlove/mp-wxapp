@@ -40,7 +40,8 @@ module.exports = [
       "usingComponents": {
         "i-avatar": "../../static/iview/avatar/index",
         "van-row": "../../static/vant/row/index",
-        "van-col": "../../static/vant/col/index"
+        "van-col": "../../static/vant/col/index",
+        "van-icon": "../../static/vant/icon/index"
       }
     }
   },
@@ -51,6 +52,19 @@ module.exports = [
       "navigationBarTitleText": "消息",
       "enablePullDownRefresh": true,
       "usingComponents": {
+        "van-row": "../../static/vant/row/index",
+        "van-col": "../../static/vant/col/index"
+      }
+    }
+  },
+  {
+    "path": "pages/register",
+    "name": "message",
+    "config": {
+      "navigationBarTitleText": "注册",
+      "enablePullDownRefresh": true,
+      "usingComponents": {
+        "i-avatar": "../../static/iview/avatar/index",
         "van-row": "../../static/vant/row/index",
         "van-col": "../../static/vant/col/index"
       }
