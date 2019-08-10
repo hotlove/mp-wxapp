@@ -39,37 +39,37 @@
 </template>
 
 <script>
-  import Toast from '../../static/vant/toast/toast';
-  export default {
-    data() {
-      return {
-        searchValue: ""
-      };
-    },
-    onShow() {
-      this.$root.$mp.page.getTabBar().setData({
-        activeIndex: 0 //对应页面的index
-      });
-    },
-    methods: {
-      // 扫描二维码
-      scanQrCode() {
-        wx.scanCode({
-          onlyFromCamera: true,
-          success (res) {
-            console.log(res);
-            Toast.success(res.result);
-          },
-          fail () {
+    import Toast from '../../static/vant/toast/toast';
+    export default {
+        data() {
+            return {
+                searchValue: ""
+            };
+        },
+        onShow() {
+            this.$root.$mp.page.getTabBar().setData({
+                activeIndex: 0 //对应页面的index
+            });
+        },
+        methods: {
+            // 扫描二维码
+            scanQrCode() {
+                wx.scanCode({
+                    onlyFromCamera: true,
+                    success (res) {
+                        console.log(res);
+                        Toast.success(res.result);
+                    },
+                    fail () {
 
-          }
-        })
-      },
-      goMessageInfo() {
-        this.$router.push({path: '/pages/message'})
-      }
-    }
-  };
+                    }
+                })
+            },
+            goMessageInfo() {
+                this.$router.push({path: '/pages/message'})
+            }
+        }
+    };
 </script>
 
 <style lang="scss">
