@@ -30,7 +30,9 @@
 
     <!-- 主题部分 -->
     <van-row>
+      <div class="index-body">
 
+      </div>
     </van-row>
 
     <!-- 提示 -->
@@ -90,5 +92,10 @@
   .header-scan-text {
     font-size: 9px;
     height: 10px;
+  }
+
+  .index-body {
+    height: 56px;
+    border: 1px solid red;
   }
 </style>

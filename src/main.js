@@ -3,6 +3,9 @@ import App from './App';
 import MpvueRouterPatch from 'mpvue-router-patch';
 import store from './store/index';
 
+import '../static/css/main.css'
+import '../static/iconfont/iconfont.css'
+
 // 辅助js
 import "./helper/index";
 
