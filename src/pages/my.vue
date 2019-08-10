@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="my-body">
     <div class="my-header">
       <div class="my-header-setting">
         <van-icon size="20px" name="setting-o"/>
@@ -35,8 +35,16 @@
         </van-row>
       </div>
     </div>
-    <div class="my-body">
+    <div class="my-body-content">
+        <!-- 我的订单 -->
+        <div class="my-body-content-border">
 
+        </div>
+
+        <!-- 必备工具 -->
+        <div class="my-body-content-border">
+
+        </div>
     </div>
   </div>
 </template>
@@ -88,7 +96,10 @@
 </script>
 
 <style lang="scss">
-  /*@import "../../static/css/main.css";*/
+
+  .my-body {
+    background: #F8F8F8;
+  }
 
   .my-header {
     background: #FFC416;
@@ -112,4 +123,17 @@
       margin-top: 10px;
     }
   }
+
+
+  .my-body-content {
+    background: #ececec;
+    padding: 0 10px;
+    .my-body-content-border {
+      background: #ffffff;
+      border: 1px solid red;
+      border-radius: 5px;
+      height: 34px;
+    }
+  }
+
 </style>
