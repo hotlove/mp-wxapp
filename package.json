@@ -28,7 +28,7 @@
     "mpvue": "^2.0.0",
     "mpvue-entry": "next",
     "mpvue-router-patch": "^2.0.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "qs": "^6.7.0",
     "sass-loader": "^7.1.0",
     "vuex": "^3.0.1"
